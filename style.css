@@ -1,6 +1,18 @@
 body{
-    background-color: aqua;
+    background-image: url(https://live-production.wcms.abc-cdn.net.au/17950e27172f59eced5275dcd3f5e220?impolicy=wcms_crop_resize&cropH=2250&cropW=4000&xPos=0&yPos=284&width=862&height=485);
 }
 .pamatlaukums{
     background-color: blueviolet;
+    width: 500px;
+    height: 150px;
+    border: 2px solid rgb(5, 5, 5);
+    padding: 10px;
+    margin: auto;
+}
+.cataZina{
+    background-color: blue;
+    height: 130px;
+    padding: 5px;
+    overflow: scroll;
+    color: rgb(0, 0, 0);
 }

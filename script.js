@@ -8,5 +8,6 @@ function SutitZinu()
 }
 function ieladetChataZinas()
 {
-    
+    let datiNoServera= await fetch('chataZinas.txt');
+    let dati =await datiNoServera.text;
 }

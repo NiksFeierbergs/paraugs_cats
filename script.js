@@ -1,8 +1,8 @@
 //console.log(1)
+let zina = document.querySelector('.zina');
+let zinas = document.querySelector('.cataZina');
 function SutitZinu()
 {
     console.log('SutitZinu()darbojas');
-    let zina = document.querySelector('zina');
-    let zinas = document.querySelector('cataZina');
     zinas.innerHTML = zinas.innerHTML+ '<br>'+zina.value;
 }

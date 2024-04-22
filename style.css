@@ -4,7 +4,7 @@ body{
 .pamatlaukums{
     background-color: blueviolet;
     width: 500px;
-    height: 150px;
+    height: 500px;
     border: 2px solid rgb(5, 5, 5);
     padding: 10px;
     margin: auto;
@@ -12,7 +12,7 @@ body{
 .cataZina{
     background-color: blue;
     height: 130px;
-    padding: 5px;
+    padding: 150px;
     overflow: scroll;
     color: rgb(0, 0, 0);
 }

@@ -6,3 +6,7 @@ function SutitZinu()
     console.log('SutitZinu()darbojas');
     zinas.innerHTML = zinas.innerHTML+ '<br>'+zina.value;
 }
+function ieladetChataZinas()
+{
+    
+}

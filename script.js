@@ -6,8 +6,9 @@ function SutitZinu()
     console.log('SutitZinu()darbojas');
     zinas.innerHTML = zinas.innerHTML+ '<br>'+zina.value;
 }
-function ieladetChataZinas()
+async function ieladetChataZinas()
 {
     let datiNoServera= await fetch('chataZinas.txt');
     let dati =await datiNoServera.text;
+    console.log(dati);
 }
